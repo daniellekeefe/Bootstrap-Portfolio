@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0;
+}
+/*background*/
+html, body {
+    height: 100%;
+    background-image: url(images/what-the-hex.png);
+    width: 960px;
+    margin:0 auto;
+}
+.clearfix{
+    content:" ";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+
+/* general nav-bar colof*/
+.navbar{
+    background-color: #ffffff;
+    color:#666666;
+        padding: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/*Nav Bar Danielle Keefe Name Label*/
+h1{
+    background-color: #4aaaa5;
+    color:#ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: xx-large;
+}
+/* Heading*/
+h2{
+    color:#4aaaa5;
+    border-bottom-color:#cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
+}
+
+
+/*sticky footer*/
+footer {
+    background-color: #666666;
+    padding: 10px;
+    text-align: center;
+    color: lightgray;
+    border-top: 8px solid #4aaaa5;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;   
+}
