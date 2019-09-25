@@ -1,0 +1,21 @@
+
+  * {
+    margin:0;
+    padding:0;
+}
+  .myDiv {
+    margin: 5px;
+    border: 3px solid #4aaaa5;
+    float: left;
+  }
+ .myDiv:hover {
+    border: 1px solid #4aaaa5;
+  }
+  
+  .mydiv.img {
+    width: inherit;
+  }
+  
+.desc {
+    text-align: center;
+  }
