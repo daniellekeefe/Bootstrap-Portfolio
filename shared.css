@@ -1,13 +1,12 @@
-* {
-    margin:0;
-    padding:0;
-}
+
 /*background*/
 html, body {
     height: 100%;
     background-image: url(images/what-the-hex.png);
-    margin:0 auto;
-}
+    /*margin:0 auto;*/
+}   
+
+.navbar-expand{-sm|-md|-lg|-xl}
 .clearfix{
     content:" ";
     display: block;
@@ -15,7 +14,7 @@ html, body {
     overflow: auto;
 }
 
-/* general nav-bar colof*/
+
 .navbar{
     background-color: #ffffff;
     color:#666666;
@@ -48,7 +47,8 @@ h2{
     background-color:#ffffff;
     border-color: #dddddd;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*sticky footer*/
