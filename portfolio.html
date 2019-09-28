@@ -1,121 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>DK Bootstrap</title>
-    <!-- <link rel="stylesheet" href="reset.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="portfolio.css"/>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <h1>Danielle Keefe</h1>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>DK Bootstrap</title>
+  <!-- <link rel="stylesheet" href="reset.css" /> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <nav class="navbar navbar-light bg-light">
+    <div class="nav col-lg-12">
+      <div class="name col-lg-6">
+        <h1>Danielle Keefe</h1>
       </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="header col-md-8">
-              <h2>Portfolio</h2>
-              </div>
-        </div>
-        <div class="row">
-          <div class="myDiv col-md">
-            <a target="_blank" href="https://trackandfieldnews.com/">
-              <img
-                src="images/track n field.jpg"
-                alt="Cinque Terre" width="100%" height="90%"/>
-            </a>
-            <div class="desc">Track & Field</div>
-          </div>
-
-          <div class=" myDiv col-md">
-            <a target="_blank" href="https://www.xtremeninja.com/">
-              <img
-                src="images/karate.jpg"
-                alt="Cinque Terre"width="100%" height="90%"/>
-              
-            </a>
-            <div class="desc">Karate Belts</div>
-          </div>
-        </div>
-
-      <div class="row">
-        <div class="myDiv col-md">
-          <a
-            target="_blank"
-            href="https://www.monsterenergy.com/sports/motocross"
-          >
-            <img
-              src="images/moto.jpg"
-              alt="Cinque Terre" width="100%" height="90%"
-            />
-          </a>
-          <div class="desc">Moto Cross News</div>
-        </div>
-
-        <div class="myDiv col-md">
-          <a target="_blank" href="https://www.swimmingworldmagazine.com/">
-            <img
-              src="images/swimming.jpg"
-              alt="Cinque Terre" width="100%" height="90%"
-            />
-          </a>
-          <div class="desc">Swimming</div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="myDiv col-md">
-          <a target="_blank" href="https://www.cyclingweekly.com">
-            <img
-              src="images/bikes.jpg"
-              alt="Cinque Terre" width="100%" height="90%"
-            />
-          </a>
-          <div class="desc">Daily Cycling News</div>
-        </div>
-        <div class="myDiv1 col-md">
-          </div>
+      <div class="links col-lg-6">
+        <a href="index.html">About </a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
       </div>
     </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="header col-md-8">
+        <h2>About</h2>
+      </div>
+    </div>
+    <!--start gallery-->
+    <div class="row">
+      <div class="myDiv col-md">
+        <a target="_blank" href="https://trackandfieldnews.com/">
+          <img src="images/trackfield.jpg" alt="Cinque Terre" />
+        </a>
+        <div class="desc">Track & Field</div>
+      </div>
+      <div class=" myDiv col-md">
+        <a target="_blank" href="https://www.xtremeninja.com/">
+          <img src="images/karate.jpg" alt="Cinque Terre" />
+        </a>
+        <div class="desc">Karate Belts</div>
+      </div>
+    </div>
+    <!--gallery row 2-->
+    <div class="row">
+      <div class="myDiv col-md">
+        <a target="_blank" href="https://www.monsterenergy.com/sports/motocross">
+          <img src="images/moto.jpg" alt="Cinque Terre" />
+        </a>
+        <div class="desc">Moto Cross News</div>
+      </div>
+      <div class="myDiv col-md">
+        <a target="_blank" href="https://www.swimmingworldmagazine.com/">
+          <img src="images/swimming.jpg" alt="Cinque Terre" />
+        </a>
+        <div class="desc">Swimming</div>
+      </div>
+    </div>
+    <!--gallery row 3-->
+    <div class="row">
+      <div class="myDiv col-md">
+        <a target="_blank" href="https://www.cyclingweekly.com">
+          <img src="images/bikes.jpg" alt="Cinque Terre" />
+        </a>
+        <div class="desc">Daily Cycling News</div>
+      </div>
+      <div class="myDiv1 col-md">
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <footer>
+    <p>Copyright©</p>
+  </footer>
+</body>
 
-    <footer>
-      <p>Copyright©</p>
-    </footer>
-  </body>
 </html>

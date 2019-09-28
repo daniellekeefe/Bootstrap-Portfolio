@@ -1,65 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DK Bootstrap</title>
-    <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous"
-  />
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DK Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <h1>Danielle Keefe</h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+  <!--Nav Bar-->
+  <nav class="navbar navbar-light bg-light">
+    <div class="nav col-lg-12">
+      <div class="name col-lg-6">
+        <h1>Danielle Keefe</h1>
+      </div>
+      <div class="links col-lg-6">
+        <a href="index.html">About </a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    </div>
+  </nav>
 
-            <div class="container">
-              <div class="row">
-                <div class="header col-md-8">
-                  <h2>Contact</h2>
-                  <div class="form col-md">
-                      <form action="mailto:daniellek@mobilefuse.com" method="post" enctype="text/plain">
-                        <label for="Name">First Name</label>
-                        <input type="text" id="Name" name="firstname" placeholder="Your name..">
-                                      
-                        <label for="Email">Email</label>
-                        <input type="text" id="lname" name="Email" placeholder="Your Email..">
-                                      
-                        <label for="message">Subject</label>
-                        <textarea id="message" name="message" placeholder="Drop me a line.." style="height:200px"></textarea>
-                                      
-                        <input type="submit" value="Submit">
-                        </form>
-                  </div>
-                </div>
-              </div>
-            </div>  
+  <div class="container">
+    <div class="row">
+      <div class="header col-md-8">
+        <h2>About</h2>
+      </div>
+    </div>
+    <br>
+    <div class="form col-md">
+      <form action="mailto:daniellek@mobilefuse.com" method="post" enctype="text/plain">
+        <label for="Name">First Name</label>
+        <input type="text" id="Name" name="firstname" placeholder="Your name..">
 
-    <footer>
-        <p>Copyright©</p>
-    </footer>
+        <label for="Email">Email</label>
+        <input type="text" id="lname" name="Email" placeholder="Your Email..">
+
+        <label for="message">Subject</label>
+        <textarea id="message" name="message" placeholder="Drop me a line.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <footer>
+    <p>Copyright©</p>
+  </footer>
 </body>
+
 </html>

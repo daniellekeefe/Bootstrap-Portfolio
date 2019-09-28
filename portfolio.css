@@ -11,9 +11,12 @@
  .myDiv:hover {
     border: 1px solid #4aaaa5;
   }
-  
   .mydiv.img {
     width: inherit;
+  }
+  img{
+    width:100%;
+    height:90%
   }
   
 .desc {
