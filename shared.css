@@ -5,6 +5,7 @@ body {
     background-image: url(images/what-the-hex.png);
     /*margin:0 auto;*/
 }
+
 .navbar {
     background-color: #ffffff;
     color: #666666;
@@ -22,7 +23,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    height:30px;
+    height: 30px;
     height: 50px;
     background-color: #ffffff;
 }
@@ -34,7 +35,7 @@ body {
     width: 100%;
     background-color: #ffffff;
     height: 50px;
-    
+
 }
 
 h1 {
@@ -49,7 +50,6 @@ h1 {
 /* Heading*/
 h2 {
     color: #4aaaa5;
-    border-bottom: #666666 3px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -59,16 +59,18 @@ h2 {
 a:hover {
     background-color: #4aaaa5;
     color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  a:active {
+}
+
+/* Add a color to the active/current link */
+a:active {
     background-color: #666666;
     color: black;
-  }
-  a:visited{
-      color:#666666;
-  }
+}
+
+a:visited {
+    color: #666666;
+}
+
 /* general content box*/
 .container {
     margin: auto;
@@ -79,7 +81,7 @@ a:hover {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    width:80%;
+    width: 80%;
 }
 
 /*sticky footer*/
